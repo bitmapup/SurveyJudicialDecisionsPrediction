@@ -1,0 +1,46 @@
+Nro;Reference;CorpusSize;Lang;Model;Repr;Metric;Min(%);Max(%);Year
+1;\cite{aletras2016predicting};584;E;SVM;BoW,n-grams,topics;Accuracy;62;79;2016
+2;\cite{liu2017predictive};584;E;KNN,LR,Bagging,RF,SVM;Topics;Accuracy;66.5;87.5;2017
+3;\cite{medvedeva2018judicial};1942;E;SVM;TF-IDFn-grams;Accuracy;66;77;2018
+4;\cite{o2019predicting};9703;E;GB,RF,SGB,DT,QDA;n-grams,word embedings,doc2vec;Accuracy;68.83;68.83;2019
+5;\cite{visentin2019predicting};684;E;SVM,GBN,KNN,Ensambles;BoW+Spectralclustering;Accuracy;69.6;86.1;2019
+6;\cite{quemy2020integrating};18420;E;AdaBoost,Bagging,NB,DT,EnsembleExtraTree,ExtraTree,GB,KNN,SVM,NN,andRF;TF-IDF,n-grams;Accuracy;75.86;98.32;2020
+7;\cite{collenette2020explainable};10;E;Abstract Dialectical Framework;Argu-ments;Accuracy;4;79;2020 
+8;\cite{medvedeva2020using};11532;E;SVM;TF-IDF;Accuracy;77;79;2020
+1;\cite{ruger2004supreme};628;E;DT;Binary;Accuracy;68;75;2004
+2;\cite{sharma2015using};120506;E;LSTM+CNN;Embeddings;Accuracy;88;92.05;2015
+3;\cite{katz2017general};28000;E;RF;Termfrequency;Accuracy;70.2;71.9;2017
+4;\cite{virtucio2018predicting};27492;Ph;SVM,RF;BoW,n-grams;Accuracy;55;59;2018
+5;\cite{medvedeva2020using};430;T;SVM;Bag-of-Words,2-gram,3-gram;F-measure;63;90.3;2020
+6;\cite{mumcuouglu2021natural};39157;T;GRU,LSTM,andBILSTM;TF-IDF;F-measure;56;87;2021
+7;\cite{munoz2021model};1884;S;ANN;Binary;Accuracy;61;85;2021
+8;\cite{sert2021using};430;;MLP;Embedings,TF-IDF,BoW;F-measure;60;98.7;2021
+9;\cite{song2021multi};50000;E;RoBERTa,RF,MLP,BIGRU-LWAN,Attention XML,APLC\_XLNet,X-Transformer;Sequenceofwords;F-measure;74.5;80.2;2021
+10;\cite{sivaranjani2021predicting};0;E;HCNN;Accuracy;77.65;;81.13;2021
+11;\cite{sharma2021predicting};3072;E;XG-Boost,ANN,SVM,andRF;TF-IDF;F-measure;60;76;2021
+12;\cite{bagherian2021two};100;Fa;membership functions;Mandami Fuzzy System,Takagi–Sugeno–Kangfuzzy;Accuracy;59;74;2021
+12;\cite{douka2021juribert};123361;F;JuriBERT;Tokenized;Accuracy;70.38;83.28;2021
+13;\cite{alghazzawi2022efficient};120506;E;CNN,LSTM;Embedding;F-measure;79;93;2022
+1;\cite{chou2010text};210;C;ANN;TF-IDF;precision;67;94;2010
+2;\cite{luo2017learning};60000;C;SVM,ANN;Embedding;F-measure;70.15;98.51;2017
+3;\cite{xiao2018cail2018};5700000;C;SVM,FastText,CNN,;TF-IDF,n-grams,embeddings;Accuracy;94.3;97.6;2018
+4;\cite{zhong2018legal};1200000;E;CNN;Embedings;Accuracy;38.3;94.4;2018
+5;\cite{li2019legal};41418;C;likelihood measure;Doc2Vec/GRU;F1;73.6;78.7;2019
+6;\cite{kaur2019crime};38;E;KNN;BoW;RRSE;;67.92;2019
+7;\cite{strickson2020legal};188294;E;SVM,LR,RF,KNN,SLP,MLP;Count,TF-IDF,LDA,Embeddings;Accuracy;49.6;69.1;2020
+8;\cite{shaikh2020predicting};86;E;SVM,kNN,CART,andNB;BoW;F-measure;86;92;2020
+9;\cite{xu2020distinguish};1500000;C;CNN/LSTM;TF-IDF;Accuracy;38.29;96.6;2020
+10;\cite{bertalan2020predicting};1562;P;LR,LDA,KNN,RT,GNB,SVM;TF-IDF;F-measure;78;98;2020
+11;\cite{mahmoudi2022ner};503;F;CamemBERT,BiLSTM-CRF;FastText,Elmo,BERT,DeLFT,Word2vec;F-measure;81.43;100;2022
+1;\cite{waltl2017predicting};5990;G;Naive Bayes classifier;Normalized Thesaurus;F-measure;53;58;2017
+2;\cite{chen2017can};500000;E;RF;featurematrix;Accuracy;75;82;2017
+3;\cite{shankar2018deep};545760;E;CNN,LSTM,RNN;CBoW;F-measure;99.74;99.89;2018
+4;\cite{lage2019predicting};4762;P;SVM,DT,XGBoost,BERT,GRU,LSTM,CNN;TF-IDF;F-measure;73.42;80.22;2019
+5;\cite{salaun2020analysis};981112;F;FlauBERT;TF-IDF,FastText;Accuracy;74.6;93.7;2020
+6;\cite{de2021classifying};53397;G;Transformers,BERT,RobBERT;PQR;Accuracy;61;87;2021
+7;\cite{branting2021scalable};16040;E;SVM;Embedings;F-measure;79.5;92.2;2021
+8;\cite{vihikan2021automatic};30311;E;ooBERT,ftBERT,LEGAL-BERT,biLSTM,GRU,LR,SVM;weightedTF-IDF;F-measure;75.5;81.3;2021
+9;\cite{mcconnell2021case};7904;E;adaBoost,decision trees,gradient boosting,random forests,SVM,XGBoost;TF-IDF,doc2vec,law2vec;Accuracy;0.5661;0.6274;2021
+10;\cite{malik2021ildc};34816;I;Logistic Regression,SVM,Random Forest,BiGRU,GloVe;Sent2Vec,Doc2Vec,Hierarchical Attention Network,BERT,DistilBERT,RoBERTa,XLNet,LEGAL-BERT;Accuracy;78;94;2021
+1;\cite{li2018markov};695418;C;Markov logic networks;;F-measure;73.58;77.74;2018
+2;\cite{bagherian2021two};100;I;TSK fuzzy system;Entropy;Accuracy;55.3;58.8;2021
